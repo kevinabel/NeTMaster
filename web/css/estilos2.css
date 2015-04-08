@@ -1,0 +1,29 @@
+/*.cabecera{
+	background: #000000;
+	color: #FFFFFF;
+	height: 80px;
+	font-size: 150%;
+	padding: 20px;
+}*/
+
+.titulo1{
+	text-align: center;
+	color: #0000FF;
+}
+
+.cuerpo1{
+	text-align: justify;
+	height: 480px;
+}
+
+.pie{
+	background: #BDBDBD;
+	font-size: 90%;
+	text-align: center;
+}
+
+.menu{
+	/*padding: 20px;*/
+	margin-top: -25px;
+	margin-left: 66px;
+}
