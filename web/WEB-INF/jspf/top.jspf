@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/estilos2.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/estilo_cuerpo_carrusel.css">
 </head>
 <body>
 	
@@ -21,7 +22,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">NetMaster</a>
+              <img src="recursos/img/1.1.png" width="25%">ETMASTER
+
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -41,7 +43,7 @@
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="../navbar-fixed-top/">Salir</a></li>
+              <li class="active"><a href="login.html">Salir</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

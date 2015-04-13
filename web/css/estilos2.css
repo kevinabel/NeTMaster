@@ -14,11 +14,12 @@
 .cuerpo1{
 	text-align: justify;
 	height: 480px;
+        color: black;
 }
 
 .pie{
 	background: #BDBDBD;
-	font-size: 90%;
+	font-size: 100%;
 	text-align: center;
 }
 

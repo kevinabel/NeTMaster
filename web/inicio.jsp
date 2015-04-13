@@ -1,32 +1,49 @@
 <%@include file="WEB-INF/jspf/top.jspf" %>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="recursos/img/b.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="recursos/img/a.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="recursos/img/4.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 	<div class="container">
 		<header class="titulo1">
-			<p>
-				<h3>Bienvenido Usuario</h3>
-			</p>
 		</header>
-
-		<article class="cuerpo1">
-			<div class="container">
-				<p>
-					<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod et error quos quisquam corporis cumque ad itaque maiores, dolor omnis a ab nam expedita, reiciendis suscipit! Magni fuga quibusdam, tempore!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id deserunt, natus culpa magni reiciendis esse, dicta labore, aliquid amet asperiores pariatur error provident iste repellendus laborum aspernatur, dolores ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam rerum beatae est ullam nihil temporibus magni voluptate voluptatibus! At, totam labore hic natus quam repellat minima fuga laborum voluptates!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam porro doloremque nostrum repudiandae animi, debitis ipsam accusantium dolor itaque placeat sunt. Quisquam nisi, vel molestias id neque consectetur porro!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae, qui eaque repellat, eos eius iure, corporis doloremque facilis rem nihil inventore porro aliquam ullam blanditiis, optio recusandae suscipit provident.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod et error quos quisquam corporis cumque ad itaque maiores, dolor omnis a ab nam expedita, reiciendis suscipit! Magni fuga quibusdam, tempore!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id deserunt, natus culpa magni reiciendis esse, dicta labore, aliquid amet asperiores pariatur error provident iste repellendus laborum aspernatur, dolores ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam rerum beatae est ullam nihil temporibus magni voluptate voluptatibus! At, totam labore hic natus quam repellat minima fuga laborum voluptates!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam porro doloremque nostrum repudiandae animi, debitis ipsam accusantium dolor itaque placeat sunt. Quisquam nisi, vel molestias id neque consectetur porro!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae, qui eaque repellat, eos eius iure, corporis doloremque facilis rem nihil inventore porro aliquam ullam blanditiis, optio recusandae suscipit provident.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod et error quos quisquam corporis cumque ad itaque maiores, dolor omnis a ab nam expedita, reiciendis suscipit! Magni fuga quibusdam, tempore!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id deserunt, natus culpa magni reiciendis esse, dicta labore, aliquid amet asperiores pariatur error provident iste repellendus laborum aspernatur, dolores ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam rerum beatae est ullam nihil temporibus magni voluptate voluptatibus! At, totam labore hic natus quam repellat minima fuga laborum voluptates!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam porro doloremque nostrum repudiandae animi, debitis ipsam accusantium dolor itaque placeat sunt. Quisquam nisi, vel molestias id neque consectetur porro!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae, qui eaque repellat, eos eius iure, corporis doloremque facilis rem nihil inventore porro aliquam ullam blanditiis, optio recusandae suscipit provident.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod et error quos quisquam corporis cumque ad itaque maiores, dolor omnis a ab nam expedita, reiciendis suscipit! Magni fuga quibusdam, tempore!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id deserunt, natus culpa magni reiciendis esse, dicta labore, aliquid amet asperiores pariatur error provident iste repellendus laborum aspernatur, dolores ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam rerum beatae est ullam nihil temporibus magni voluptate voluptatibus! At, totam labore hic natus quam repellat minima fuga laborum voluptates!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam porro doloremque nostrum repudiandae animi, debitis ipsam accusantium dolor itaque placeat sunt. Quisquam nisi, vel molestias id neque consectetur porro!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae, qui eaque repellat, eos eius iure, corporis doloremque facilis rem nihil inventore porro aliquam ullam blanditiis, optio recusandae suscipit provident.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod et error quos quisquam corporis cumque ad itaque maiores, dolor omnis a ab nam expedita, reiciendis suscipit! Magni fuga quibusdam, tempore!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id deserunt, natus culpa magni reiciendis esse, dicta labore, aliquid amet asperiores pariatur error provident iste repellendus laborum aspernatur, dolores ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam rerum beatae est ullam nihil temporibus magni voluptate voluptatibus! At, totam labore hic natus quam repellat minima fuga laborum voluptates!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam porro doloremque nostrum repudiandae animi, debitis ipsam accusantium dolor itaque placeat sunt. Quisquam nisi, vel molestias id neque consectetur porro!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae, qui eaque repellat, eos eius iure, corporis doloremque facilis rem nihil inventore porro aliquam ullam blanditiis, optio recusandae suscipit provident.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod et error quos quisquam corporis cumque ad itaque maiores, dolor omnis a ab nam expedita, reiciendis suscipit! Magni fuga quibusdam, tempore!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id deserunt, natus culpa magni reiciendis esse, dicta labore, aliquid amet asperiores pariatur error provident iste repellendus laborum aspernatur, dolores ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laboriosam rerum beatae est ullam nihil temporibus magni voluptate voluptatibus! At, totam labore hic natus quam repellat minima fuga laborum voluptates!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam porro doloremque nostrum repudiandae animi, debitis ipsam accusantium dolor itaque placeat sunt. Quisquam nisi, vel molestias id neque consectetur porro!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae, qui eaque repellat, eos eius iure, corporis doloremque facilis rem nihil inventore porro aliquam ullam blanditiis, optio recusandae suscipit provident.
-					
-                                        </h6>
-				</p>
-			</div>
-		</article>	
-		
 	</div>
 <%@include file="WEB-INF/jspf/bottom.jspf" %>		
 	
